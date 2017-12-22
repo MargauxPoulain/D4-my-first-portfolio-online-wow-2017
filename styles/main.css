@@ -37,12 +37,14 @@ header{
   background-image: url("images/fond.jpg");
   background-position: center;
   background-repeat: repeat-x;
+
 }
-
 .header-content-block img{
-  padding: 1em;
+margin-left: auto;
+margin-right: auto;
+vertical-align: middle;
 
-  HOW TO FUCKING CENTER IT ????
+WHY CAN'T I PUT IT AT THE CENTER ?????????
 
 }
 
@@ -96,21 +98,20 @@ header{
 
 
 .works{
-  height: 65em;
+  height: 85em;
   max-width: 70em;
   margin-left: auto;
   margin-right: auto;
-  display: flex;
 }
 
-.works h1{
-  color: rgb(0, 0, 0);
-  text-align: center;
+.works h2{
+  color: rgb(28, 28, 28);
   padding: 1em;
-  font-family: serif;
-  font-weight: 600;
-
+  padding-right: 30px;
 }
+
+
+
 
 li{
   margin: 1em;
@@ -122,41 +123,6 @@ li img {
 }
 
 
-
-
-
-
-.container {
-  max-width: 32em;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-
-footer{
-  background-color: #046380;
-  color:#dddddd;
-  padding: 1em;
-}
-
-.newheader{
-  background-color: #046380;
-}
-
-
-.newheader::after{
-  content: "";
-  display: block;
-  width: 120px;
-  height: 120px;
-  transform: rotate(45deg) translateX(-5%);
-  position: absolute;
-  left: 45%;
-  background-color: #046380;
-}
-
 ul{
   list-style-type: none;
   padding : 0;
@@ -164,4 +130,19 @@ ul{
   flex-wrap: wrap;
   justify-content: space-around;
 
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+  background-color: rgb(28, 28, 28);
+  color:#dddddd;
+  padding: 1em;
 }
